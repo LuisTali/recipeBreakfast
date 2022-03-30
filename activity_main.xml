@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/desayunoRecipe" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_neutral60"
+        android:text="Receta para un desayuno polenta!" />
+
+    <TextView
+        android:id="@+id/huevos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:text="- 2 Huevos"
+        />
+
+    <TextView
+        android:id="@+id/pan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/huevos"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:text="- 2 Rebanadas de Pan Salvado"
+        />
+
+    <TextView
+        android:id="@+id/queso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pan"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:text="- 2 Fetas de Queso de Maquina"
+        />
+
+    <TextView
+        android:id="@+id/banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/queso"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:text="- 1 Banana"
+        />
+
+    <TextView
+        android:id="@+id/nueces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banana"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:text="- 3 Mitades de Nueces"
+        />
+
+    <TextView
+        android:id="@+id/preparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nueces"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/material_dynamic_neutral60"
+        android:text="¡Metodo de Preparacion!"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preparacion"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        android:text="2 huevos a la plancha caliente y fuego bien bajo, tapados.\nDos panes a tostar, al darlos vuelta colocar el queso.\n4 rodajas de Tomate a la plancha y luego juntarlo todo."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ef0078"
+        android:textSize="24sp"
+        android:text="A comerlaaa!"
+        />
+
+</RelativeLayout>
